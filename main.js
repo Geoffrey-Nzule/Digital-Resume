@@ -32,3 +32,8 @@ navLinks.addEventListener("click", (e) => {
     ...scrollRevealOption,
     delay: 1000,
   });
+
+  ScrollReveal().reveal(".feature__card", {
+    ...scrollRevealOption,
+    interval: 500,
+  });
