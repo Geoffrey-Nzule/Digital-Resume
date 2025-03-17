@@ -37,3 +37,19 @@ navLinks.addEventListener("click", (e) => {
     ...scrollRevealOption,
     interval: 500,
   });
+
+  ScrollReveal().reveal(".quality__content .section__header", {
+    ...scrollRevealOption,
+  });
+  ScrollReveal().reveal(".quality__content .section__description", {
+    ...scrollRevealOption,
+    delay: 500,
+  });
+  ScrollReveal().reveal(".quality__content .quality__btn", {
+    ...scrollRevealOption,
+    delay: 1000,
+  });
+
+  const swiper = new Swiper(".swiper", {
+    loop: true,
+  });

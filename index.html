@@ -7,6 +7,10 @@
     href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
     rel="stylesheet"
 />
+<link
+rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
 <link rel="stylesheet" href="styles.css"/>
     <title>Digital resume</title>
 </head>
@@ -96,6 +100,8 @@
 
         </section>
 
+        <!-- Quality section -->
+
         <section class="section__container quality__container" id="quality">
           <div class="quality__image"></div>
           <div class="quality__content">
@@ -111,12 +117,68 @@
             </div>
           </div>
         </section>
+
+        <section class="review__container" id="client">
+            <h2 class="section__header">Awesome<br /><span>Review</span></h2>
+            <!-- Slider main container -->
+            <div class="swiper">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <div class="review__card">
+                    <img src="assets/user-1.jpg" alt="review" />
+                    <h4>Sarah Johnson</h4>
+                    <h5>Music Producer</h5>
+                    <p>
+                        Overall, this portfolio website effectively highlights Brendah's talent and professionalism. 
+                        With a strong audio showcase, easy navigation, and a polished aesthetic,
+                        it leaves a lasting impression on potential clients.
+                        A few minor enhancements could further elevate its impact,
+                         making it a go-to destination for high-quality voice-over services.
+                    </p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="review__card">
+                    <img src="assets/user-2.jpg" alt="review" />
+                    <h4>David Lee</h4>
+                    <h5>Sound Engineer</h5>
+                    <p>
+                        The platform is user-friendly, 
+                        making it easy to browse, audition, 
+                        and hire top-tier voice talent. 
+                        With a diverse range of voice-over professionals across various niches—commercials,
+                         audiobooks, animation, and more—finding the perfect voice is seamless.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+    
+         
+        </div>
+        <footer class="footer" id="contact">
+            <div class="footer__content">
+              <a href="#"><img src="assets/logo-white.png" alt="logo" /></a>
+              <div class="footer__socials">
+                <a href="#"><i class="ri-facebook-fill"></i></a>
+                <a href="#"><i class="ri-twitter-fill"></i></a>
+                <a href="#"><i class="ri-pinterest-line"></i></a>
+                <a href="#"><i class="ri-linkedin-fill"></i></a>
+              </div>
+              <p>Copyright © 2025 Web Design Mastery. All rights reserved.</p>
+            </div>
+          </footer>
     
 
         
     </div>
 
     <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
     <script src="main.js"></script>
     
 </body>
