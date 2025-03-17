@@ -288,7 +288,7 @@ nav {
   }
   
   .footer {
-    background-color: var(--primary-color-dark);
+    background-color: var(--primary-color);
   }
   
   .footer__content {
@@ -316,7 +316,7 @@ nav {
     padding: 5px 9px;
     font-size: 1.5rem;
     color: var(--white);
-    background-color: var(--text-dark);
+    background-color: var(--white);
     border-radius: 100%;
   }
   
@@ -406,3 +406,7 @@ nav {
         text-align: left;
         grid-column: 2/3;
       }
+      .review__container {
+        padding-block: 10rem 5rem;
+      }
+    }
